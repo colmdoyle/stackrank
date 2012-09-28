@@ -1,0 +1,45 @@
+h1, h1 a {
+    text-decoration: none;
+}
+body {
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
+table {
+    border-width: 0 1px 1px 1px;
+    border-color: #6d84b4;
+    border-style: solid;
+}
+tbody tr:nth-child(2n) td, tbody tr.even td {
+    background-color: #d8dfea;
+}
+tbody tr:nth-child(2n-1) td, tbody tr.even td {
+    background-color: white;
+}
+tbody tr:first-child td {
+    background-color: #6d84b4;
+    font-weight: bold;
+    color: #f2f2f2;
+}
+h2, h2 a, h2.alt, h2.alt a {
+    font-size:  16px;
+    color:  #333333;
+    font-weight:  400;
+    font-style: normal;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+h1, h1 a {
+    font-size:  28px;
+    color: #333333;
+    font-weight:  bold;
+}
+.alt {
+    color: #333333;
+}
+a {
+  text-decoration: none;
+  color: #333333;
+}
+a:hover {
+  color: #3b5998;
+}
